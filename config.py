@@ -16,7 +16,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "a2zbackup")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Abhigupta77:<password>@cluster0.ccb8umw.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5178783941")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append(5178783941)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001866027601")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "Gplinks") # For Force Subscription
